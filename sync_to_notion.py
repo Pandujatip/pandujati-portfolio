@@ -357,9 +357,8 @@ def main():
     for p in projects:
         add_project_to_database(db_id, p, api_key)
         
-    print("
-" + "=" * 60)
-    print(" [?] SEMUA PROYEK BERHASIL DI-SYNC KE NOTION DATABASE!")
+    print("\n" + "=" * 60)
+    print(" [✓] SEMUA PROYEK BERHASIL DI-SYNC KE NOTION DATABASE!")
     print("=" * 60)
 
 if __name__ == "__main__":
